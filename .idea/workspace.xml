@@ -81,13 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultMovieService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DefaultMovieService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DefaultMovieService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.60394734" vertical-offset="0" max-vertical-offset="1054">
+            <state line="50" column="0" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1139">
               <folding>
-                <element signature="e#383#390#0" expanded="true" />
-                <element signature="e#1187#1194#0" expanded="true" />
+                <element signature="e#461#468#0" expanded="true" />
+                <element signature="e#1243#1250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SellingReportService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SellingReportService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="19" selection-start="186" selection-end="186" vertical-scroll-proportion="0.13421053" vertical-offset="0" max-vertical-offset="1054">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1610#1617#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/Database.xml" />
         <option value="$PROJECT_DIR$/src/XmlDocument.java" />
         <option value="$PROJECT_DIR$/src/DefaultMovieService.java" />
+        <option value="$PROJECT_DIR$/src/SellingReportService.java" />
       </list>
     </option>
   </component>
@@ -566,12 +579,12 @@
       <changelist id="ed3b34ef-f2dc-441f-9f70-59690c0d5e99" name="Default" comment="" />
       <created>1395168392564</created>
       <updated>1395168392564</updated>
-      <workItem from="1395168395927" duration="6444000" />
+      <workItem from="1395168395927" duration="7170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6444000" />
+    <option name="totallyTimeSpent" value="7170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="-8" width="1537" height="916" extended-state="6" />
@@ -693,10 +706,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DefaultMovieService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.60394734" vertical-offset="0" max-vertical-offset="1054">
+        <state line="50" column="0" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1139">
           <folding>
-            <element signature="e#383#390#0" expanded="true" />
-            <element signature="e#1187#1194#0" expanded="true" />
+            <element signature="e#461#468#0" expanded="true" />
+            <element signature="e#1243#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SellingReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="186" selection-end="186" vertical-scroll-proportion="0.13421053" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1610#1617#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
 public class DefaultMovieService {
+    private Movie[] LoadedMovies;
     public Movie[] Load() throws Exception {
+        Movie[] finalResult = new Movie[0];
         if (!Session.HasKey("LoggedUser")) {
             throw new Exception("User is not authorized");
         }
@@ -19,8 +21,7 @@ public class DefaultMovieService {
 
             }
             Movie[] result = new Movie[resultMovies.size()];
-            result = resultMovies.toArray(result);
-            return result;
+            finalResult = resultMovies.toArray(result);
         }
         else {
             if (Session.HasValue("LoggedUser", "user")) {
@@ -38,12 +39,16 @@ public class DefaultMovieService {
                     }
                 }
                 Movie[] result = new Movie[resultMovies.size()];
-                result = resultMovies.toArray(result);
-                return result;
+                finalResult = resultMovies.toArray(result);
             }
         }
 
-        return new Movie[0];
+        LoadedMovies = finalResult;
+        return finalResult;
+    }
+
+    public void ExportToExcel() {
+
     }
 
     private XmlDocument LoadXml() {
