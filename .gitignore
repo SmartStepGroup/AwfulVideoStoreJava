@@ -1,16 +1,6 @@
-# Eclipse
-.classpath
-.project
-.settings/
+*.class
 
-# Intellij
-.idea/
-*.iml
-*.iws
-
-# Mac
-.DS_Store
-
-# Maven
-log/
-target/
+# Package Files #
+*.jar
+*.war
+*.ear
