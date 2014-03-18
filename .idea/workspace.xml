@@ -72,23 +72,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginService.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="341" selection-end="341" vertical-scroll-proportion="0.19590269" vertical-offset="0" max-vertical-offset="781">
+            <state line="9" column="27" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultMovieService.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefaultMovieService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DefaultMovieService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+            <state line="27" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.60394734" vertical-offset="0" max-vertical-offset="1054">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1166#1173#0" expanded="true" />
+                <element signature="e#383#390#0" expanded="true" />
+                <element signature="e#1187#1194#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlDocument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/XmlDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="38" selection-start="556" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,8 +153,11 @@
         <option value="$PROJECT_DIR$/src/Session.java" />
         <option value="$PROJECT_DIR$/src/MovieCodes.java" />
         <option value="$PROJECT_DIR$/src/Movie.java" />
-        <option value="$PROJECT_DIR$/src/DefaultMovieService.java" />
         <option value="$PROJECT_DIR$/src/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/XmlElement.java" />
+        <option value="$PROJECT_DIR$/src/Database.xml" />
+        <option value="$PROJECT_DIR$/src/XmlDocument.java" />
+        <option value="$PROJECT_DIR$/src/DefaultMovieService.java" />
       </list>
     </option>
   </component>
@@ -545,12 +566,12 @@
       <changelist id="ed3b34ef-f2dc-441f-9f70-59690c0d5e99" name="Default" comment="" />
       <created>1395168392564</created>
       <updated>1395168392564</updated>
-      <workItem from="1395168395927" duration="5793000" />
+      <workItem from="1395168395927" duration="6444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5793000" />
+    <option name="totallyTimeSpent" value="6444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="-8" width="1537" height="916" extended-state="6" />
@@ -642,20 +663,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DefaultMovieService.java">
+    <entry file="file://$PROJECT_DIR$/src/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1166#1173#0" expanded="true" />
-          </folding>
+        <state line="9" column="27" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoginService.java">
+    <entry file="file://$PROJECT_DIR$/src/XmlElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="341" selection-end="341" vertical-scroll-proportion="0.19590269" vertical-offset="0" max-vertical-offset="781">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XmlDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="38" selection-start="556" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DefaultMovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.60394734" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="e#383#390#0" expanded="true" />
+            <element signature="e#1187#1194#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
