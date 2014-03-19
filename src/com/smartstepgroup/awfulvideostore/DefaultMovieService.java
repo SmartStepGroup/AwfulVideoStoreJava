@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DefaultMovieService {
     private Movie[] LoadedMovies;
-    public Movie[] Load() throws Exception {
+    public Movie[] load() throws Exception {
         Movie[] finalResult = new Movie[0];
         if (!Session.HasKey("LoggedUser")) {
             throw new Exception("User is not authorized");
@@ -14,7 +14,6 @@ public class DefaultMovieService {
             XmlDocument xmlMovies = LoadXml();
             ArrayList<Movie> resultMovies = new ArrayList<Movie>();
             for (int i = 0; i < xmlMovies.Elements.size(); i++) {
-
                     Movie movie = new Movie(Integer.parseInt(xmlMovies.Elements.get(i).Values[3]));
                     movie.Rating = Integer.parseInt(xmlMovies.Elements.get(i).Values[2]);
                     movie.Title = xmlMovies.Elements.get(i).Values[0];
@@ -47,10 +46,6 @@ public class DefaultMovieService {
 
         LoadedMovies = finalResult;
         return finalResult;
-    }
-
-    public void ExportToExcel() {
-
     }
 
     private XmlDocument LoadXml() {

@@ -1,0 +1,1 @@
+LoggedUser=user
