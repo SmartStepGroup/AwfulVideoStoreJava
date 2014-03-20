@@ -5,9 +5,9 @@ import java.io.*;
 public class Session {
     private static String fileName = "session.txt";
 
-    public static void Add(String key, String value) throws IOException {
+    public static void add(String key, String value) throws IOException {
         createIfNeeded();
-        if (HasKey(key)) {
+        if (hasKey(key)) {
             return;
         }
         PrintWriter writer = new PrintWriter(fileName, "UTF-8");
@@ -22,12 +22,12 @@ public class Session {
         }
     }
 
-    public static boolean HasKey(String loggedUser) throws IOException {
+    public static boolean hasKey(String loggedUser) throws IOException {
         String sessionContent = readFile();
         return sessionContent.contains(loggedUser);
     }
 
-    public static boolean HasValue(String key, String value) throws IOException {
+    public static boolean hasValue(String key, String value) throws IOException {
         String content = readFile();
         return content.contains(key + "=" + value);
     }

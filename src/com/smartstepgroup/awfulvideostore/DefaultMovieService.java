@@ -3,15 +3,14 @@ package com.smartstepgroup.awfulvideostore;
 import java.util.ArrayList;
 
 public class DefaultMovieService {
-    private Movie[] LoadedMovies;
     public Movie[] load() throws Exception {
         Movie[] finalResult = new Movie[0];
-        if (!Session.HasKey("LoggedUser")) {
+        if (!Session.hasKey("LoggedUser")) {
             throw new Exception("User is not authorized");
         }
 
-        if (Session.HasValue("LoggedUser", "admin")) {
-            XmlDocument xmlMovies = LoadXml();
+        if (Session.hasValue("LoggedUser", "admin")) {
+            XmlDocument xmlMovies = loadXml();
             ArrayList<Movie> resultMovies = new ArrayList<Movie>();
             for (int i = 0; i < xmlMovies.Elements.size(); i++) {
                     Movie movie = new Movie(Integer.parseInt(xmlMovies.Elements.get(i).Values[3]));
@@ -25,8 +24,8 @@ public class DefaultMovieService {
             finalResult = resultMovies.toArray(result);
         }
         else {
-            if (Session.HasValue("LoggedUser", "user")) {
-                XmlDocument xmlMovies = LoadXml();
+            if (Session.hasValue("LoggedUser", "user")) {
+                XmlDocument xmlMovies = loadXml();
                 ArrayList<Movie> resultMovies = new ArrayList<Movie>();
 
                 for (int i = 0; i < xmlMovies.Elements.size(); i++) {
@@ -44,13 +43,12 @@ public class DefaultMovieService {
             }
         }
 
-        LoadedMovies = finalResult;
         return finalResult;
     }
 
-    private XmlDocument LoadXml() {
+    private XmlDocument loadXml() {
         XmlDocument document = new XmlDocument();
-        document.Load();
+        document.load();
         return document;
     }
 }

@@ -9,7 +9,7 @@ public class XmlDocument {
         this.Elements = new ArrayList<XmlElement>();
     }
 
-    public void Load() {
+    public void load() {
         XmlElement starWars = new XmlElement();
         starWars.Values[0] = "Звездные Войны. Эпизод 7";
         starWars.Values[1] = "1.99$";

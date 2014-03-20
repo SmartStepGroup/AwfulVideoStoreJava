@@ -16,7 +16,7 @@ public class Movie {
     public String Price;
     public int Rating;
 
-    public String GetMovieCodeName() {
+    public String getMovieCodeName() {
         return MovieCodeName;
     }
 }
