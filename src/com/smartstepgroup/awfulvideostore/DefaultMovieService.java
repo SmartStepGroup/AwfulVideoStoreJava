@@ -1,5 +1,7 @@
 package com.smartstepgroup.awfulvideostore;
 
+import javax.xml.stream.XMLStreamException;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class DefaultMovieService {
@@ -46,7 +48,7 @@ public class DefaultMovieService {
         return finalResult;
     }
 
-    private XmlDocument loadXml() {
+    private XmlDocument loadXml() throws FileNotFoundException, XMLStreamException {
         XmlDocument document = new XmlDocument();
         document.load();
         return document;
