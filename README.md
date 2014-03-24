@@ -1,7 +1,7 @@
 AwfulVideoStoreJava
 ===================
 
-##### Task #1. Substitution of concepts
+##### Task #1. Extract and Override Factory Method
  - Move everything related to Session in LoginService to new method. Write tests on authorization
  - Do the same for SellingReportService. Write tests that only admin can see report.
 
