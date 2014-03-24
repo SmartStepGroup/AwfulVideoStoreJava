@@ -3,7 +3,7 @@ AwfulVideoStoreJava
 
 ##### Task #1. Extract and Override Factory Method
  - Move everything related to Session in LoginService to new method. Write tests on authorization
- - Do the same for SellingReportService. Write tests that only admin can see report.
+ - Do the same for SellingReportService. Write tests that only admin can see report
 
 ##### Task #2. Dependency Injection
  - Introduce ISession and use it in LoginService where authorize user
