@@ -3,8 +3,8 @@ AwfulVideoStoreJava
 
 Refactoring workshop. Practice example on how to manage legacy code and start writing unit tests. Theory is here - http://www.slideshare.net/SmartStepGroup/ss-32655053
 
-.NET: https://github.com/SmartStepGroup/AwfulVideoStore
-Java: https://github.com/SmartStepGroup/AwfulVideoStoreJava
+ - .NET: https://github.com/SmartStepGroup/AwfulVideoStore
+ - Java: https://github.com/SmartStepGroup/AwfulVideoStoreJava
 
 
 ##### Task #1. Extract and Override Factory Method
