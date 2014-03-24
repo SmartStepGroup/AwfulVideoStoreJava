@@ -1,6 +1,8 @@
 AwfulVideoStoreJava
 ===================
 
+Refactoring workshop. Practice example on how to manage legacy code and start writing unit tests. Theory is here - http://www.slideshare.net/SmartStepGroup/ss-32655053
+
 ##### Task #1. Extract and Override Factory Method
  - Move everything related to Session in LoginService to new method. Write tests on authorization
  - Do the same for SellingReportService. Write tests that only admin can see report
