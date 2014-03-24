@@ -12,7 +12,8 @@ AwfulVideoStoreJava
 
 ##### Task #3. SPROUT Method
  - Do not include 18+ rating movies into Selling Report
- - Sort movies displaying for admin (DefaultMovieService) by price
+ - In DefaultMovieService for user continue filter movies with 14+ rating but at the same time get all 'New Release' movies.
+ - Sort movies list for admin by price
 
 ##### Task #4. Wrap method
  - Include into Selling Report Top 5 movies for best selling category
